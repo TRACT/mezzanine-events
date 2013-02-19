@@ -4,4 +4,4 @@ from mezzanine_events.models import Event
 class EventsResource(ModelResource):
 	class Meta:
 		queryset = Event.objects.all()
-		#allowed_methods = ['get']
+		allowed_methods = ['get']
